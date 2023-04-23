@@ -16,10 +16,10 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Esta alterações é para o trigger do workflow</h1>
+      <h1>Estas alterações é para o trigger do workflow</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+          count is {count + 50}
         </button>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
